@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar'
-import ImageCarousel from './components/ImageCarousel';
-import DescriptionSection from './components/DescriptionSection';
 import Footer from './components/Footer';
-import Contact from './components/Contact'
+import React, { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    document.title = 'Research'; // Set the page title
+  }, []);
   return (
     <>
 

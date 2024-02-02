@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
-const ContactUsSection = () => {
+const Contact = () => {
   return (
     <Box sx={{ textAlign: 'center', p: 3, bgcolor: 'background.default', color: 'text.primary', marginTop: 5 }}>
       <Typography variant="h4" gutterBottom fontSize='40px' fontWeight='200'>
@@ -14,12 +14,12 @@ const ContactUsSection = () => {
         sx={{ backgroundColor: '#a50034', color: 'white', margin: 5, width: '20%', height: '60px', '&:hover': {
             backgroundColor: '#696969', // Change button color to grey on hover
           },}} // Custom styles for the button
-        href="mailto:trungducmic@gmail.com"
+        href="mailto:wli@chapman.edu"
       >
-        Email
+        wli@chapman.edu
       </Button>
     </Box>
   );
 };
 
-export default ContactUsSection;
+export default Contact;
