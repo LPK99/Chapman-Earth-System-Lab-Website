@@ -1,4 +1,4 @@
-import React, {useState} from 'react'; 
+import React from 'react'; 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,10 +9,6 @@ import Logo from '../assets/chapman_logo.png'; // Import the logo image
 import { Link, useMatch, useResolvedPath} from 'react-router-dom';
 
 const Navbar = () => {
-  const [navIsShown, setnavIsShown] = useState(false);
-  const toggleNavIsShown = () => {
-    setnavIsShown((navIsShown) => !navIsShown);
-  };
   return (
     <AppBar position="relative" sx={{ backgroundColor: 'white', borderBottom: '5px solid #a50034', borderTop: '5px solid #a50034'}}>
       <Container maxWidth="xl">
