@@ -3,6 +3,7 @@ import ImageCarousel from './components/ImageCarousel';
 import DescriptionSection from './components/DescriptionSection';
 import Footer from './components/Footer';
 import Contact from './components/Contact'
+import NewsSection  from './components/News';
 import React, { useEffect } from 'react';
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
     <>
     <ImageCarousel />
     <DescriptionSection />
+    <NewsSection />
     <Contact />
     <Footer />
     </>

@@ -27,13 +27,13 @@ const members = [
     },
     {
       name: 'Rejoice Thomas',
-      description: 'Ph.D. Candidate, Chapman University',
+      description: 'Ph.D., Chapman University',
       imageUrl: Rejoice_Thomas_profile,
       linkedinUrl: 'https://www.linkedin.com/in/rejoice-thomas-04403516b/'
     },
     {
       name: 'Sachi Perera',
-      description: 'Ph.D. Candidate, Chapman University',
+      description: 'Ph.D., Chapman University',
       imageUrl: Sachi_Perera_profile,
       linkedinUrl: 'https://www.linkedin.com/in/sachi-perera-07aa2667/' // Note: This uses the same image as Rejoice Thomas. You might want to update it if that's a mistake.
     },
@@ -45,19 +45,19 @@ const members = [
     },
     {
       name: 'Nikolay Grisel Todorov',
-      description: 'Ph.D. Candidate, Chapman University',
+      description: 'Ph.D., Chapman University',
       imageUrl: Nikolay_Grisel_Todorov_profile,
       linkedinUrl: 'https://www.linkedin.com/in/ngtodorov/'
     },
     {
       name: 'Shahryar Fazli',
-      description: 'Ph.D. Candidate, Chapman University',
+      description: 'Ph.D. Student, Chapman University',
       imageUrl: Shahryar_Fazli_profile,
       linkedinUrl: 'https://www.linkedin.com/in/shahryar-fazli-094b17111/'
     },
     {
       name: 'Surendra Maharjan',
-      description: 'Ph.D. Candidate, Chapman University',
+      description: 'Ph.D. Student, Chapman University',
       imageUrl: Surendra_Maharjan_profile,
       linkedinUrl: 'https://www.linkedin.com/in/surendra-maharjan-a0271326b/'
     },
