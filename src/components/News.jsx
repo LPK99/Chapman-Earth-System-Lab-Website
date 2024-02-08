@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Typography, List, ListItem} from '@mui/material';
+import { Box, Typography, List, ListItem, Link} from '@mui/material';
 
 // Example news headlines data
 const newsHeadlines = [
-  { id: 1, title: 'Student researchers positions available currently' },
-  { id: 2, title: 'Lab newly developed websites' },
-  { id: 3, title: 'Upcoming researche papers in 2024' },
+  { id: 1, title: 'The Big Picture: How Data Science and Earth Observation Intersect to Study Climate Risks', url: 'https://news.chapman.edu/2022/10/10/the-big-picture-how-data-science-and-earth-observation-intersect-to-study-climate-risks/'},
+  { id: 2, title: 'Student researchers positions available currently' , url : ''},
+  { id: 3, title: 'Upcoming researche papers in 2024', url: ''},
 ];
 
 const NewsSection = () => {
@@ -26,7 +26,7 @@ const NewsSection = () => {
         {newsHeadlines.map((news) => (
           <ListItem key={news.id} divider>
             <Typography variant="h4" gutterBottom fontSize='24px' textAlign='center' fontStyle='italic' italictextDecoration='underline' fontColor='#a50034'>
-                {news.title}
+                <Link href={news.url}>{news.title}</Link>
             </Typography>
             </ListItem>
         ))}
